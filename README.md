@@ -36,7 +36,7 @@ services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     "ClientId": "[The AD Application Client ID]"
   },
 ```
-![Web API Registration Details](/screenshots/webapiregistration.png?raw=true)
+![Web API Registration Details](/screenshots/webapiregistration.PNG?raw=true)
 
 - In the API Controller, you can use `HttpContext.ValidateAppRole("access_as_application");` to validate the correct role.
 
